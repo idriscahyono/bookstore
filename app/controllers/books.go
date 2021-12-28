@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"gin-bookstore/configs"
-	"gin-bookstore/models"
+	"gin-bookstore/app/configs"
+	"gin-bookstore/app/models"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

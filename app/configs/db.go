@@ -2,7 +2,8 @@ package configs
 
 import (
 	"fmt"
-	"gin-bookstore/models"
+	"gin-bookstore/app/database/seeders"
+	"gin-bookstore/app/models"
 	"github.com/spf13/viper"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
@@ -38,4 +39,7 @@ func InitDB() {
 
 	//Migration
 	DB.AutoMigrate(&models.Book{})
+
+	//Seeders
+	seeders.DBSeed(DB)
 }

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"gin-bookstore/configs"
-	"gin-bookstore/routers"
+	"gin-bookstore/app/configs"
+	"gin-bookstore/app/routers"
 	"github.com/spf13/viper"
 )
 
