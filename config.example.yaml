@@ -1,0 +1,6 @@
+DB_USERNAME: db-username
+DB_PASSWORD: db-password
+BASE_URL: base-url
+DB_PORT: db-port
+DB_NAME: db-name
+PORT: db-port
