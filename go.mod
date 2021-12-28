@@ -1,4 +1,4 @@
-module gin-bookstore
+module github.com/idriscahyono/bookstore
 
 go 1.17
 

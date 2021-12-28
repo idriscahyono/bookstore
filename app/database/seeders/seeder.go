@@ -1,7 +1,7 @@
 package seeders
 
 import (
-	"gin-bookstore/app/database/fakers"
+	"github.com/idriscahyono/bookstore/app/database/fakers"
 	"gorm.io/gorm"
 )
 

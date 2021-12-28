@@ -2,8 +2,8 @@ package configs
 
 import (
 	"fmt"
-	"gin-bookstore/app/database/seeders"
-	"gin-bookstore/app/models"
+	"github.com/idriscahyono/bookstore/app/database/seeders"
+	"github.com/idriscahyono/bookstore/app/models"
 	"github.com/spf13/viper"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
@@ -34,7 +34,7 @@ func InitDB() {
 	DB, err = gorm.Open(mysql.Open(dsn), &gorm.Config{})
 
 	if err != nil {
-		panic("Failde to connect database")
+		panic("Failed to connect database")
 	}
 
 	//Migration

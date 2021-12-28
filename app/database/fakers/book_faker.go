@@ -1,8 +1,8 @@
 package fakers
 
 import (
-	"gin-bookstore/app/models"
 	"github.com/bxcodec/faker/v3"
+	"github.com/idriscahyono/bookstore/app/models"
 	"gorm.io/gorm"
 )
 

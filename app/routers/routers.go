@@ -1,8 +1,8 @@
 package routers
 
 import (
-	"gin-bookstore/app/controllers"
 	"github.com/gin-gonic/gin"
+	"github.com/idriscahyono/bookstore/app/controllers"
 	"github.com/spf13/viper"
 	"net/http"
 	"strconv"
